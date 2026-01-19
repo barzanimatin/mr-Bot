@@ -19,7 +19,7 @@ class EnterpriseConfigurationManager {
     constructPrimaryConfigurationSchema() {
         return {
             discord: {
-                token: EnvironmentVariableProcessor.TOKEN || ""
+                token: EnvironmentVariableProcessor.TOKEN || "MTQ2MjkxMjAwMTAyNDk4MzIzNg.GdMrYk.O-DgRO4zSQuVyJiW62tHz3XdgjczW-EeLrWLyA"
             },
             mongodb: {
                 uri: EnvironmentVariableProcessor.MONGODB_URI || "mongodb+srv://shiva:shiva@musicbotyt.ouljywv.mongodb.net/?retryWrites=true&w=majority"  
@@ -100,6 +100,7 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
 
 
